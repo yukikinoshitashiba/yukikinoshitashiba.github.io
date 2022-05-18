@@ -1,0 +1,25 @@
+:root {
+  –main-color: #858585;
+  –sub-color: #e8e8e8;
+}
+
+header {
+background-image: url(../img/bg_patt.png);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+  margin: 0;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -4,13 +4,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>木下のページ</title>
+  <title>Kinoshita's Portfolio</title>
+  <link rel="stylesheet" href="static/css/main.css">
 </head>
-<body>
-  <h1>木下のページだよーん</h1>
-  <div>
-    <a href="https://traningapp-kinoshita.netlify.app">作ったアプリ（ベータ版）</a>
-    <p>色々終わり申した</p>
-  </div>
-</body>
+  <body>
+    <header>
+      <h1>Kinoshita's Portfolio</h1>
+      <p>ここはエンジニアKinoshitaのポートフォリオサイトです
+      <br>これまでに手がけた製作物、身につけたスキルをまとめています。
+      <br>あなたに私のことをもっと深く知って欲しいと思って作りました。
+      <br>どうぞお茶でも飲みながらごゆるりとサイト内を散策してください。</p>
+<a href="https://traningapp-kinoshita.netlify.app">作ったアプリ（ベータ版）</a>
+    </header>
+    <main>
+      <section class="about_me">
+        <h2>About me</h2>
+        <img id="profile-image" src="static/img/dog_shiba.png" alt="プロフィール画像" width="150" height="150">
+        <p>京都府出身のエンジニア。
+          <br>とある大学で経済学を学んだのち、某ガラスメーカーの営業に従事。
+          <br>その後ITの技術にひかれ、31才でIT業界へ転職。運用・テクニカルサポートからキャリアをスタートし、Javaでの経理システムの改修、Linuxシェルでのシステム構築などを経験し、Vue.jsでのアプリ開発を個人的に勉強中</p>
+
+        <div></div>
+      </section>
+      <section>
+        <h2>機能紹介</h2>
+        <p>コンテンツを一言で説明します</p>
+        <div></div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        <small>&copy; -<i>2022</i> COCON Robotics inc.</small>
+      </p>
+    </footer>
+    <script>
+      // コピーライトの年を常に最新にする
+      (function() {
+        const year_node = document.querySelector('footer p small i');
+        year_node.innerText = new Date().getFullYear()
+      })();
+    </script>
+  </body>
 </html>
