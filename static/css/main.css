@@ -23,3 +23,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.about_me li {
+  list-style: none;
+}
+.about_me li::before {
+  content: "-";
+}
