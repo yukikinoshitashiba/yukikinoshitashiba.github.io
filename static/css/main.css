@@ -17,16 +17,17 @@ body {
   margin: 0;
 }
 
-.about_me {
+.about_me,
+.works {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.about_me li {
+.works li {
   list-style: none;
 }
-.about_me li::before {
+.works li::before {
   content: "-";
 }
